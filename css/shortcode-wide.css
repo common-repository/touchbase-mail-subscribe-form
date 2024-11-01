@@ -1,0 +1,39 @@
+.touchbasemail-subscribe-form-format-wide input[name=email] {
+    /* full width minus submit button width */
+    width: calc(100% - 150px);
+
+    /* side-by-side inputs */
+    display: block;
+    float: left;
+
+    margin: 0;
+    padding: 8px 6px;
+
+    background: #fff;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+
+    text-align: left;
+}
+
+.touchbasemail-subscribe-form-format-wide input[type=submit] {
+
+    /* Fixed width, if this is changed, update email input width */
+    width: 150px;
+
+    /* side-by-side inputs */
+    display: block;
+    float: left;
+
+    margin: 0;
+    padding: 8px 0;
+
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #333;
+    background: #e0e0e0;
+    border-left: 0; /* don't have a double-width border between the inputs */
+    border-radius: 0 6px 6px 0;
+}
